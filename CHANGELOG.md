@@ -1,3 +1,10 @@
+# [2.1.0-rc.1](https://github.com/stephencsmall/semantic-messiah/compare/v2.0.0...v2.1.0-rc.1) (2020-01-17)
+
+
+### Features
+
+* **home:** add a merge down from master after breaking change ([117bfc5](https://github.com/stephencsmall/semantic-messiah/commit/117bfc572875c8056bb2a622a91d36d8a94a3c9e))
+
 # [2.0.0](https://github.com/stephencsmall/semantic-messiah/compare/v1.1.1...v2.0.0) (2020-01-17)
 
 
