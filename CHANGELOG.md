@@ -1,3 +1,29 @@
+# [2.0.0](https://github.com/stephencsmall/semantic-messiah/compare/v1.1.1...v2.0.0) (2020-01-17)
+
+
+### Features
+
+* **index:** change the app to a gitgraph ([28f86ab](https://github.com/stephencsmall/semantic-messiah/commit/28f86ab4a7ecb9c33f5f0852718815e08fbdb659))
+
+
+### BREAKING CHANGES
+
+* **index:** The app no longer runs on port 3000, instead use 1234.  App is no longer served
+from a node http server, instead uses parcel.
+
+# [2.0.0-rc.1](https://github.com/stephencsmall/semantic-messiah/compare/v1.1.1...v2.0.0-rc.1) (2020-01-17)
+
+
+### Features
+
+* **index:** change the app to a gitgraph ([28f86ab](https://github.com/stephencsmall/semantic-messiah/commit/28f86ab4a7ecb9c33f5f0852718815e08fbdb659))
+
+
+### BREAKING CHANGES
+
+* **index:** The app no longer runs on port 3000, instead use 1234.  App is no longer served
+from a node http server, instead uses parcel.
+
 ## [1.1.1](https://github.com/stephencsmall/semantic-messiah/compare/v1.1.0...v1.1.1) (2020-01-15)
 
 
