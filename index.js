@@ -237,3 +237,13 @@ master.commit({
   author: bot
 });
 master.tag("v1.1.0");
+
+develop.merge({
+  branch: master,
+  fastForward: false,
+  commitOptions: {
+    subject: "chore(release): merge down from master",
+    body: "Merged in master (pull request #)",
+    author: maintainer
+  }
+});
