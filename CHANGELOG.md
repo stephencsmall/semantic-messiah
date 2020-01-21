@@ -1,3 +1,10 @@
+# [2.2.0-rc.1](https://github.com/stephencsmall/semantic-messiah/compare/v2.1.0...v2.2.0-rc.1) (2020-01-21)
+
+
+### Features
+
+* **deal:** adds a new feature branch to the demo ([8008c32](https://github.com/stephencsmall/semantic-messiah/commit/8008c3232b557a3ca8f462e36e6eb69cc4a37069))
+
 # [2.1.0](https://github.com/stephencsmall/semantic-messiah/compare/v2.0.0...v2.1.0) (2020-01-17)
 
 
