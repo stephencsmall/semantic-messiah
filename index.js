@@ -247,3 +247,37 @@ develop.merge({
     author: maintainer
   }
 });
+
+// Build another feature in off develop
+const dFeature = gitgraph.branch({
+  name: "feature/big-deal",
+  from: develop,
+  style: {
+    color: "orange",
+    label: {
+      color: "orange",
+      strokeColor: "orange"
+    }
+  }
+});
+dFeature
+  .commit({
+    subject: "correct that bug I wrote",
+    author: developer,
+    style: { dot: { color: "orange" }, message: { color: "orange" } }
+  })
+  .commit({
+    subject: "this feature is huge",
+    author: developer,
+    style: { dot: { color: "orange" }, message: { color: "orange" } }
+  });
+
+// Bring the new feature into develop.  Message matters, must squash.
+develop.merge({
+  branch: dFeature,
+  commitOptions: {
+    subject: "feat(deal): add the Big Deal page",
+    body: "Merged in feature/vegas (pull request #)",
+    author: maintainer
+  }
+});

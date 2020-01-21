@@ -1,6 +1,6 @@
 {
   "name": "semantic-messiah",
-  "version": "2.1.0-rc.1",
+  "version": "2.1.0",
   "description": "more awesome semantic-release",
   "main": "index.js",
   "author": "Steve Small <steve.small@slalom.com>",
