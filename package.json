@@ -13,7 +13,7 @@
     "cz-conventional-changelog": "3.0.2",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1",
-    "semantic-release": "^16.0.1"
+    "semantic-release": "^17.2.3"
   },
   "config": {
     "commitizen": {
